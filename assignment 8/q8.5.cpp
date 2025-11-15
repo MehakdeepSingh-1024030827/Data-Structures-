@@ -15,7 +15,7 @@ void buildMinHeap(int arr[], int size){
     }
 }
 void heapifymax(int arr[], int size, int lar){
-   
+   buildMaxHeap(arr,size);
     int largest = lar;
     int left = 2*lar;
     int right = 2*lar + 1;
